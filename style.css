@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  background: #cc9225;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.logo{
+width: 120px;
+}
+
+.hero button {
+  background: white;
+  color: #ff6600;
+
+} 
+ 
+
+
+
+
+/*border: none;
+  padding: 12px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: bold;/*
+
+
+
+
+
+
+
