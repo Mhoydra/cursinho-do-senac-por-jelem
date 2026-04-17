@@ -1,71 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
 }
 
 .hero {
-  background: #6abbe0;
-  color: white;
-  text-align: center;
-  padding: 60px 20px;
+    background: linear-gradient(135deg, #004aad, #007bff);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
 }
 
-.logo{
-width: 120px;
+.hero head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .hero button {
-  background: white;
-  color: #ff6600;
-/*border: none;
-  padding: 12px 20px;
-  margin-top: 20px;
-  cursor: pointer;
-  font-weight: bold;*/
+    background: white;
+    color: #004aad;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
 }
- 
+
+.hero img {
+    width: 500px;
+}
+
+.hero h1 {
+    font-size: 2.2rem;
+    margin-top: 10px;
+}
+
+.hero h2 {
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+
 .prova-social {
-  padding: 40px;
-  text-align: center;
+    padding: 40px 20px;
+    text-align: center;
 }
 
 .depoimentos {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .card {
-  background: #f2f2f2;
-  padding: 20px;
-  width: 220px;
-  border-radius: 10px;
-  text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .card img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #ddd;
+    margin-bottom: 10px;
 }
 
 .card span {
-  display: block;
-  margin-top: 10px;
-  font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
 }
 
+
 .beneficios {
-  background: #fff5e6;
-  padding: 40px;
-  text-align: center;
+    background: #fff;
+    padding: 40px 20px;
+    text-align: center;
 }
 
 .beneficios ul {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.beneficios li {
+    margin: 10px 0;
+    font-size: 1.1rem;
 }
 
 
+section button {
+    padding: 15px 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #004aad;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+section button:hover {
+    background: #003080;
+}
+
+
+.faq {
+    padding: 40px 20px;
+    background: #f0f0f0;
+}
+
+.faq p {
+    margin-top: 10px;
+}
+
+
+.cta-final {
+    background: #004aad;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cta-final button {
+    background: white;
+    color: #004aad;
+    font-weight: bold;
+}
+
+
+section:last-child {
+    background: #222;
+    color: white;
+    padding: 30px 20px;
+}
+
+section:last-child div {
+    margin-bottom: 20px;
+}
+
+section:last-child input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+section:last-child button {
+    background: #007bff;
+}
+
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}

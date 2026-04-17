@@ -9,16 +9,20 @@
 
 <body> 
     <!-- Hero -->
-    <section class="hero">
-        <head> <!-- Aba de cima com titulo da pagina e  -->
-            <button>Cursos</button>
-            <button>Prova social(mudar o nome)</button>
+    <header class="hero">
+        <nav class="topo"> <!-- Aba de cima com titulo da pagina e  -->  
+            <div><button>Cursos</button>
+            <button>Depoimentos</button>
+            </div>
             <img src="img/078f1416021220ef0c231efa9001128f95bdb0.png" alt="Logo"> 
-        </head>
+          
+        </nav>
         
         <h1>Cursos Tecnicos Senac RS</h1>
-        <h2>Cursos 100% gratuitos</h2>   
-    </section>
+        <h2>Cursos 100% gratuitos</h2>
+        <button class="cta-principal">Inscreva-se agora</button> 
+
+    </header>
 
    <!-- PROVA SOCIAL -->
 <section class="prova-social">  <!-- Se der, colocar o carrosel horizontal -->
@@ -26,19 +30,19 @@
 
   <div class="depoimentos">
     <div class="card">
-        <img src="" alt="">
+        <img src="img/Guilherme dep.jpg" alt="">
       <p>"Consegui meu primeiro emprego na área antes mesmo de terminar o curso!"</p>
-      <span>- Ana Souza</span>
+      <span>- Guilherme Vaz</span>
     </div>
 
     <div class="card">
-        <img src="" alt="">
+        <img src="img/Jessica dep.jpg">
       <p>"Curso prático e direto ao mercado de trabalho."</p>
-      <span>- Lucas Silva</span>
+      <span>- Jessica Fagundes</span>
     </div>
 
     <div class="card">
-        <img src="img/" alt="">
+        <img src="img/Elem dep.jpg" alt="">
       <p>"Aprendi programação do zero e hoje já desenvolvo sistemas."</p>
       <span>- Elem Freitas</span>
     </div>
@@ -61,47 +65,60 @@
 
     <!-- CTA -->
     <section>
-        <button>Cadastre se agora</button> <!-- Botão grande que chame atenção -->
+        <button>Cadastre-se agora</button> <!-- Botão grande que chame atenção -->
         <button>Saiba mais aqui</button> <!-- Fica ao lado do botão acima, igualmente grande -->
     </section>
 
-    <!-- FQA -->
-    <section>
-        <h3>Perguntas comuns:</h3>
-        <p>Quanto tempo dura o curso?</p>
-        <p>Quais serão meus beneficios?</p>
+    <!-- FAQ -->
+    <section class="faq">
+        <h2>Perguntas frequentes</h2>
+
+        <p><strong>Quanto tempo dura o curso?</p></strong>
+         <p>Depende do curso, mas em média de 12 a 18 meses.</p>
+
+        <p><strong>Preciso ter experiência?</strong></p>
+        <p>Não! Você pode começar do zero.</p>
+
+        <p><strong>Quais serão meus beneficios?</strong></p>
+        <p>Você aprenderá na pratica com os melhores professores, com total suporte</p>
     </section>
 
     <!-- CTA FINAL -->
-    <section>
+    <section class="cta-final">
         <h2>O futuro são os cursos de tecnologia, Venha!</h2>
         <h3>Se junte a mais de 1.000 jovens e adultos no UniSenac 2026</h3>
-        <button>!Começar ainda hoje!</button>
-        <button>!Ver aqui outros cursos!</button>
+
+        <button>!Começar hoje!</button>
+        <button>!Ver outros cursos!</button>
     </section>
 
     <!-- Rodapé: Tem uma imagem de referencia com uma galinha na pasta img -->
-    <section>
-        <div> <!-- fica na esquerda -->
-            <img src="" alt="logo da impresa">
+    <footer>
+        <div class="coluna"> <!-- fica na esquerda -->
+            <img src="img/078f1416021220ef0c231efa9001128f95bdb0.png" alt="logo da impresa">
         </div> 
-        <div> <!-- Responsaveis -->
+
+        <div class="coluna"> <!-- Responsaveis -->
             <h4>Integrantes e criadores</h4>
-            <p>Elen freitas</p>
+            <p>Elem Freitas</p>
             <p>Joel Rodrigues Matias</p>
-            <p>Paulinho eduardo</p>
+            <p>Paulinho Eduardo</p>
         </div>
-        <div> <!-- Contatos e Direitos autorais: Sãos liks um em cima do outro -->
+
+        <div class="coluna"> <!-- Contatos e Direitos autorais: Sãos liks um em cima do outro -->
+            <h4>Links</h4>
             <p>Duvidas</p> 
             <p>Empresarial</p>
             <p>Beneficios</p>
             <p>Virar socio</p>
             <p>Telefones</p>
         </div>
-        <div>
+
+        <div class="coluna">
             <input type="text" placeholder="Email">
             <button>Cadastre-se</button>
         </div>
+
         <footer>
             <p>Site by Senacrs.com</p>
             <p>@ Pelotas 2012 - 2026</p>
